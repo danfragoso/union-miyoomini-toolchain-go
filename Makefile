@@ -1,7 +1,7 @@
 .PHONY: shell
 .PHONY: clean
 	
-TOOLCHAIN_NAME=miyoomini-toolchain
+TOOLCHAIN_NAME=miyoomini-toolchain-go
 WORKSPACE_DIR := $(shell pwd)/workspace
 
 .build: Dockerfile
